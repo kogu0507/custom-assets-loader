@@ -1,11 +1,13 @@
+.copy-btn-wrapper {
+    padding-bottom: 30px; /* ここで余白を確保 */
+    text-align: center;
+}
 .copy-trigger-btn {
     /* ブロック要素として中央寄せにするための設定 */
     display: block; /* インライン要素をブロック要素に変更 */
     margin-left: auto; /* 左マージンを自動調整 */
     margin-right: auto; /* 右マージンを自動調整 */
 
-    margin-top: 0px;
-    margin-bottom:30px;
     /* ボタンの基本的な見た目を調整 */
     padding: 10px 20px; /* 内側の余白 */
     background-color: #007bff; /* 背景色 (青) */
