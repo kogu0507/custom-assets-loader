@@ -1,11 +1,25 @@
 .copy-trigger-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 5px 10px;
-  background-color: #61afef;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
+    /* ブロック要素として中央寄せにするための設定 */
+    display: block; /* インライン要素をブロック要素に変更 */
+    margin-left: auto; /* 左マージンを自動調整 */
+    margin-right: auto; /* 右マージンを自動調整 */
+
+    margin-top: 0px;
+    margin-bottom: 2em;
+    /* ボタンの基本的な見た目を調整 */
+    padding: 10px 20px; /* 内側の余白 */
+    background-color: #007bff; /* 背景色 (青) */
+    color: white; /* 文字色 */
+    border: none; /* 枠線をなくす */
+    border-radius: 5px; /* 角を丸くする */
+    cursor: pointer; /* マウスオーバー時のカーソルをポインターに */
+    font-size: 16px; /* 文字サイズ */
+    text-align: center; /* テキストを中央寄せ (なくても通常は中央になるが念のため) */
+
+    /* ホバー時の効果を追加 */
+    transition: background-color 0.3s ease; /* 色の変化を滑らかに */
 }
+
+/* マウスカーソルが乗ったとき（ホバー時）のスタイル */
+.copy-trigger-btn:hover {
+    background-color: #0056b3; /* 背景色を少し濃い青にする */
